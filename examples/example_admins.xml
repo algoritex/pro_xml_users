@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<listings>
+    <listing>
+        <name>Jonh Doe</name>
+        <username>jhon</username>
+        <email>jhon@jhon.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+    <listing>
+        <name>Juan Palomo</name>
+        <username>juanpalomo</username>
+        <email>juanpalomo@juanpalomo.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+    <listing>
+        <name>Pedro Martinez Gilarranz</name>
+        <username>pedromartin</username>
+        <email>pedromartin@pedromartin.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+    <listing>
+        <name>Esteve Neoor</name>
+        <username>steveneor</username>
+        <email>steveneor@gmail.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+    <listing>
+        <name>Julia Espin</name>
+        <username>julia</username>
+        <email>julia@julia.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+</listings>
