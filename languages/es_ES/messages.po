@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-10-20 02:05+0200\n"
-"PO-Revision-Date: 2017-05-16 22:31+0200\n"
+"PO-Revision-Date: 2017-11-22 11:37+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -181,11 +181,11 @@ msgstr "Email"
 msgid "Photos"
 msgstr "Fotos"
 
-msgid "Error, XML not found or wrong"
-msgstr "Error, XML no encontrado o erróneo"
+msgid "Error, XML not found"
+msgstr "Error, XML no encontrado"
 
 msgid "Total Ads:"
-msgstr "Anuncios totales"
+msgstr "Totales:"
 
 msgid "Success:"
 msgstr "Éxito"
@@ -244,7 +244,6 @@ msgstr "3) Asegúrate que el nombre introducido corresponde con los tags del arc
 msgid "4) Execute the import"
 msgstr "4) Ejecuta la importación"
 
-
 msgid "When executing the import"
 msgstr "- Cuando se está ejecutando la importación, en caso de que un tag obligatorio no se haya introducido  or tenga un valor erróneo, el usuario o administrador será omitido de la importación"
 
@@ -260,7 +259,6 @@ msgstr "La funcionalidad de exportar permite exportar todos los usuarios y admin
 msgid "Default tags"
 msgstr "- Tags por defecto son: <strong>[ name, username, email, password,mobile_phone, land_phone, country, region, city, area, zip, address, company, enabñed, active ]</strong>"
 
-
 msgid "Tags not defined"
 msgstr "- Para los tags no definidos se usarán los corresponientes valores por defecto"
 
@@ -271,7 +269,7 @@ msgid "Import File Tags"
 msgstr "Tags del archivo"
 
 msgid "Mandatory"
-msgstr "Obligatiorio"
+msgstr "Obligatorio"
 
 msgid "Optional"
 msgstr "Opcional"
@@ -327,6 +325,11 @@ msgstr "Usuarios"
 msgid "Zip"
 msgstr "Código Postal"
 
+msgid "Notes"
+msgstr "Notas"
 
+msgid "Warning"
+msgstr "Aviso"
 
-
+msgid "TimeLimit"
+msgstr "En caso de importar grandes cantidades de datos, puede surgir "

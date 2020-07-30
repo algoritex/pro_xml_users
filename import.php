@@ -32,37 +32,33 @@
                             <div class="form-label"><?php echo __('XML URL', 'pro_xml_users'); ?></div>
                             <div class="form-controls">
                                 <input id="xml_feed" name="xml_feed" class="input-large" type="text"
-                                       placeholder="XML url" required/>*
+                                       placeholder="XML url"/>*
                             </div>
 
-                                <!--
-                                <div class="xml_links_users">
-                                    <small>
-                                        <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users.xml"
-                                           target="_blank">
-                                            http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users.xml
-                                        </a>
-                                        <br>
-                                        <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users100.xml"
-                                           target="_blank">
-                                            http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users100.xml
-                                        </a>
-                                    </small>
-                                </div>
-                                <div class="xml_links_admins">
-                                    <small>
-                                        <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_admins.xml"
-                                           target="_blank">
-                                            http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_admins.xml
-                                        </a>
-                                        <br>
-                                        <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_admins100.xml"
-                                           target="_blank">
-                                            http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_admins100.xml
-                                        </a>
-                                    </small>
-                                </div>
-                                -->
+
+                                                            <div class="xml_links_users">
+                                                                <small>
+                                                                    <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users.xml"
+                                                                       target="_blank">
+                                                                        http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users.xml
+                                                                    </a>
+                                                                    <br>
+                                                                    <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users50.xml"
+                                                                       target="_blank">
+                                                                        http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_users50.xml
+                                                                    </a>
+                                                                </small>
+                                                            </div>
+                                                            <div class="xml_links_admins">
+                                                                <small>
+                                                                    <a href="http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_admins.xml"
+                                                                       target="_blank">
+                                                                        http://proxml-demo.algoritex.com/oc-content/plugins/pro_xml_users/examples/example_admins.xml
+                                                                    </a>
+
+                                                                </small>
+                                                            </div>
+
                         </div>
                         <div class="form-row">
                             <div class="form-label"><?php echo __('Upload XML File', 'pro_xml_ads'); ?></div>
@@ -79,10 +75,16 @@
                     </div>
                     <div class="widget-box-content">
                         <div class="users">
-                            <b class="stats-title"><?php echo __('Users', 'pro_xml_users'); ?></b>
+                            <div class="user_title">
+                                <b class="stats-title"><?php echo __('Users', 'pro_xml_users'); ?></b>
+                            </div>
+                            <div class="admin_title">
+                                <b class="stats-title"><?php echo __('Admins', 'pro_xml_users'); ?></b>
+                            </div>
                             <br>
                             <hr>
                             <br>
+
                             <div class="mandatory_tags">
                                 <small class="stats-title"><?php echo __('Mandatory', 'pro_xml_users'); ?></small>
                                 <div class="form-row">
@@ -125,15 +127,16 @@
                                 </div>
 
                             </div>
-                            <div class="optional_tags">
-                                <small class="stats-title"><?php echo __('Optional', 'pro_xml_users'); ?></small>
 
+
+                            <div class="user_optional">
+                                <small class="stats-title"><?php echo __('Optional', 'pro_xml_users'); ?></small>
                                 <div class="form-row">
                                     <div class="form-label"><?php echo __('Mobile Phone', 'pro_xml_users'); ?></div>
                                     <div class="form-controls">
                                         <
                                         <input id="mobile_phone_tag" name="mobile_phone_tag" type="text"
-                                               placeholder="mobile_phone"/>
+                                               placeholder="mobile"/>
                                         >
                                     </div>
 
@@ -144,7 +147,7 @@
                                     <div class="form-controls">
                                         <
                                         <input id="land_phone_tag" name="land_phone_tag" type="text"
-                                               placeholder="land_phone"/>
+                                               placeholder="landphone"/>
                                         >
                                     </div>
                                 </div>
@@ -233,55 +236,7 @@
                                 </div>
                             </div>
 
-                            <div style="display: block; clear: both;"></div>
-
-                        </div>
-
-                        <div class="admins">
-                            <b class="stats-title">Admins</b>
-                            <br>
-                            <hr>
-                            <br>
-                            <div class="mandatory_tags">
-                                <small class="stats-title">Mandatory</small>
-                                <div class="form-row">
-                                    <div class="form-label"><?php echo __('Name', 'pro_xml_users'); ?></div>
-                                    <div class="form-controls">
-                                        <
-                                        <input id="admin_name_tag" name="admin_name_tag" type="text" placeholder="name"/>
-                                        >*
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-label"><?php echo __('Username', 'pro_xml_users'); ?></div>
-                                    <div class="form-controls">
-                                        <
-                                        <input id="admin_username_tag" name="admin_username_tag" type="text"
-                                               placeholder="username"/>
-                                        >*
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-label"><?php echo __('Email', 'pro_xml_users'); ?></div>
-                                    <div class="form-controls">
-                                        <
-                                        <input id="admin_email_tag" name="admin_email_tag" type="text"
-                                               placeholder="email"/>
-                                        >*
-                                    </div>
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-label"><?php echo __('Password', 'pro_xml_users'); ?></div>
-                                    <div class="form-controls">
-                                        <
-                                        <input id="admin_password_tag" name="admin_password_tag" type="text"
-                                               placeholder="password"/>
-                                        >*
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="optional_tags">
-                                <small class="stats-title"><?php echo __('Optional', 'pro_xml_users'); ?></small>
+                            <div class="admin_optional">
                                 <div class="form-row">
                                     <div class="form-label"><?php echo __('Moderator', 'pro_xml_users'); ?></div>
                                     <div class="form-controls">
@@ -292,16 +247,19 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div style="display: block; clear: both;"></div>
 
                         </div>
+
                     </div>
                     <br>
 
                 </div>
-                    <div class="submit_div">
-                        <input class="btn btn-blue" value="<?php echo osc_esc_html(__('Import File', 'pro_xml_users')); ?>" type="submit">
-                    </div>
+                <div class="submit_div">
+                    <input class="btn btn-blue" value="<?php echo osc_esc_html(__('Import File', 'pro_xml_users')); ?>"
+                           type="submit">
+                </div>
             </form>
         </div>
 

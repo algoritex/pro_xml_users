@@ -12,6 +12,9 @@ if (!defined('OC_ADMIN') || OC_ADMIN !== true) exit('Access is not allowed.');
 $check_users = Params::getParam('check_export_users') == "1" ? true : false;
 $check_admins = Params::getParam('check_export_admins') == "1" ? true : false;
 
+if (!file_exists( osc_plugin_path(__DIR__) ."/exported_files")) {
+    mkdir( osc_plugin_path(__DIR__) ."/exported_files", 0777, true);
+}
 if ($check_users) {
     $users = retrieveUsers();
     $default_users_tags = Params::getParam('users_default_tags') == "1" ? true : false;
@@ -88,7 +91,6 @@ function doExportUsers($data, $tags)
             $xml_item->addChild($tags['active'] === "" ? "active" : $tags['active'], $item['b_active'] === null ? "" : $item['b_active']);
 
         }
-
 
         $name = osc_plugin_path(__DIR__) ."/exported_files/os_users_export.xml";
         $download_name = osc_plugin_url(__FILE__) . "exported_files/os_users_export.xml";

@@ -8,9 +8,9 @@
         <admin_type>administrator</admin_type>
     </listing>
     <listing>
-        <name>Juan Palomo</name>
-        <username>juanpalomo</username>
-        <email>juanpalomo@juanpalomo.com</email>
+        <name>Juan Dddd</name>
+        <username>juanpalomo242</username>
+        <email>juanpalomodf@juanpalomo.com</email>
         <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
         <admin_type>administrator</admin_type>
     </listing>
@@ -32,6 +32,20 @@
         <name>Julia Espin</name>
         <username>julia</username>
         <email>julia@julia.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+    <listing>
+        <name>Jonh Does</name>
+        <username>jhonyy</username>
+        <email>jhon@jhon11.com</email>
+        <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
+        <admin_type>administrator</admin_type>
+    </listing>
+    <listing>
+        <name>Juan Palomo11</name>
+        <username>juanpalomo11</username>
+        <email>juanpalomo11@juanpalomo.com</email>
         <password>$15$8Wwn58rnIyifiv1SlG7IkueO8qgTjPpsZNB5ZOPDd42pb.R.Yg22i</password>
         <admin_type>administrator</admin_type>
     </listing>

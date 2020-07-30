@@ -1,10 +1,10 @@
 <?php
 
 /*
-Plugin Name: Pro Users Backup
+Plugin Name: Pro XML Users
 Plugin URI: pro-xml-users
 Description: Import/Export all users/administrators from a XML file
-Version: 1.0.0
+Version: 1.1.0
 Author: Algoritex
 Author URI: http://www.algoritex.com
 Short Name: pro_xml_users
@@ -31,6 +31,7 @@ function admin_header_users()
 function admin_footer_users()
 {
     echo '<script src="' . osc_plugin_url(__FILE__) . 'js/functions.js'.'"></script>' . PHP_EOL;
+    echo '<script src="' . osc_plugin_url(__FILE__) . 'js/jquery.validate.min.js'.'"></script>' . PHP_EOL;
 }
 
 
@@ -87,7 +88,7 @@ function pro_xml_footer_users()
     echo '<section>
             <footer class="text-center">
             <br>
-                ' . __('Pro XML Users 1.0 | Copyright © 2017 | Created by', 'pro_xml_users') .'
+                ' . __('Pro XML Users 1.1 | Copyright © 2019 | Created by', 'pro_xml_users') .'
                     <a class="link_footer" target="_blank"
                             href="' . $link . '"><strong>' . __("Algoritex") .'</strong></a>
                <br><br>
